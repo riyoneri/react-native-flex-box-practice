@@ -19,28 +19,30 @@ export default function App() {
 const styles = StyleSheet.create({
   appContainer: {
     padding: 50,
-    flexDirection: 'row-reverse',
-    justifyContent: 'center'
+    flexDirection: 'row',
+    width: "80%",
+    height: 300,
+    justifyContent: "flex-end",
+    alignItems: "stretch",
   },
   container1: {
+    marginHorizontal: 3,
+    flex: 1,
     backgroundColor: 'red',
-    width: '100%',
-    height: '100%',
-    justifyContent: 'center',
-    alignItems: 'center'
+    justifyContent: 'center'
   },
   container2: {
+    marginHorizontal: 3,
+    flex: 1,
     backgroundColor: 'blue',
-    width: '100%',
-    height: '100%',
-    justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: "center",
+    justifyContent: "center"
   },
   container3: {
+    marginHorizontal: 3,
+    flex: 3,
     backgroundColor: 'green',
-    width: '100%',
-    height: '100%',
-    justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: "flex-end",
+    justifyContent: "center"
   },
 })
